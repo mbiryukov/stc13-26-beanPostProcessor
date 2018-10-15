@@ -6,6 +6,6 @@ public class Main {
     public static void main(String[] args) {
         ClassPathXmlApplicationContext context =
                 new ClassPathXmlApplicationContext("appContext.xml");
-        context.getBean(ExampleImpl.class).doSome();
+        context.getBean(Example.class).doSome();
     }
 }
